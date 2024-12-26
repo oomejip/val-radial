@@ -1,23 +1,29 @@
 local menuItems = {
+
+    { label = 'TRUNK', icon = 'fa-regular fa-face-laugh-squint', event = '', shouldclose = true},
+    { label = 'ESCORT', icon = 'fa-solid fa-users', event = 'police:client:KidnapPlayer', shouldclose = true},
+    { label = 'SHARE CONTACT', icon = 'fa-solid fa-phone', event = 'qb-phone:client:GiveContactDetails', shouldclose = true},
     {
-        label = 'Clothing',
+        label = 'CLOTHING',
         icon = 'fa-solid fa-shirt',
         items = {
-            { label = 'Hat', icon = 'fa-solid fa-hat-cowboy', event = ''},
-            { label = 'Glasses', icon = 'fa-solid fa-glasses', event = ''},
-            { label = 'Mask', icon = 'fa-solid fa-mask', event = ''},
-            { label = 'Shirt', icon = 'fa-solid fa-shirt', event = ''},
-            { label = 'Pant', icon = 'fa-solid fa-person-walking', event = ''},
-            { label = 'Shoes', icon = 'fa-solid fa-shoe-prints', event = ''},
+            { label = 'HAT', icon = 'fa-solid fa-hat-cowboy', event = ''},
+            { label = 'GLASSES', icon = 'fa-solid fa-glasses', event = ''},
+            { label = 'MASK', icon = 'fa-solid fa-mask', event = ''},
+            { label = 'SHIRT', icon = 'fa-solid fa-shirt', event = ''},
+            { label = 'PANTS', icon = 'fa-solid fa-person-walking', event = ''},
+            { label = 'SHOES', icon = 'fa-solid fa-shoe-prints', event = ''},
         },
         shouldclose = false
     },
-    { label = 'Trunk', icon = 'fa-solid fa-car', event = 'qb-trunk:client:GetIn', shouldclose = true},
-    { label = 'Escort', icon = 'fa-solid fa-user-group', event = '', shouldclose = true},
-    { label = 'Share Contact', icon = 'fa-solid fa-phone', event = '', shouldclose = true},
-    { label = 'Walk Styles', icon = 'fa-solid fa-person-walking', event = '', shouldclose = true},
+    { label = '', icon = 'fa-regular fa-star', event = 'emotes:OpenMenu', shouldclose = true},
+    { label = 'KEYS', icon = 'fa-solid fa-key', event = 'emotes:OpenMenu', shouldclose = true},
+    { label = 'VEHICLE ACTIONS', icon = 'fa-solid fa-car', event = 'ac-carcontrol:openMenu', shouldclose = true},
+    { label = 'WALK STYLES', icon = 'fa-solid fa-person-walking', event = 'emotes:OpenMenu', shouldclose = true},
+    { label = 'EMOTE MENU', icon = 'fa-solid fa-masks-theater', event = 'emotes:OpenMenu', shouldclose = true},
+    { label = 'BANK', icon = 'fa-solid fa-dollar-sign', event = 'emotes:OpenMenu', shouldclose = true},
+    { label = 'TRUNK', icon = 'fa-regular fa-lightbulb', event = 'qb-trunk:client:GetIn', shouldclose = true},
 }
-
 local isMenuVisible = false
 local toggleCooldown = false
 

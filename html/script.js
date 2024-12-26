@@ -71,8 +71,8 @@ const updateMenuItems = (itemsData) => {
         updatedItems.forEach((item, index) => {
             const angle = angleIncrement * index;
             const radians = angle * (Math.PI / 180);
-            const translateX = 140 * Math.cos(radians);
-            const translateY = 140 * Math.sin(radians);
+            const translateX = 240 * Math.cos(radians);
+            const translateY = 240 * Math.sin(radians);
 
             item.style.setProperty('--translate-x', `${translateX}px`);
             item.style.setProperty('--translate-y', `${translateY}px`);
