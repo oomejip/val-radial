@@ -6,7 +6,7 @@ for support join my discord
 ## Dependencies
 - [QBCore](https://github.com/qbcore-framework/qb-core)
 
-## Support And credits
+## Support And Credits
 - [vallenthisside](https://github.com/vallenthisside)
 - [Discord](https://discord.gg/3c3mcjSBv9)
 - If you need help join his discord i did only a css edit 
