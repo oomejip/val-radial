@@ -7,6 +7,6 @@ for support join my discord
 - [QBCore](https://github.com/qbcore-framework/qb-core)
 
 ## Support And credits
-- [Discord](https://github.com/vallenthisside)
+- [vallenthisside](https://github.com/vallenthisside)
 - [Discord](https://discord.gg/3c3mcjSBv9)
 - If you need help join his discord i did only a css edit 
