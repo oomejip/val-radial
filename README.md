@@ -2,10 +2,7 @@
 - CSS EDIT Prodigy 2.0 look 
 ## Showcase
 
-
-![image](https://github.com/user-attachments/assets/27f5b808-d73d-41c2-8cd7-b3cc238ec00b)
-
-
+![image](https://github.com/user-attachments/assets/ea42a41b-4051-468c-9adf-c706affbff51)
 
 ## Dependencies
 
