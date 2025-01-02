@@ -1,6 +1,5 @@
 # val-radial CSS Edit
 - CSS EDIT Prodigy 2.0 look 
-for support join my discord
 ## Showcase Clip and Pictures
 ![image](https://github.com/user-attachments/assets/71cad9be-32d7-4d7a-aaf3-9115e14d90b5)
 ## Dependencies
